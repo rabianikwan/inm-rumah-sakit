@@ -9,7 +9,9 @@
         "prettier"
     ],
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
     },
     "plugins": [
         "react"
