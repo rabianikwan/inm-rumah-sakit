@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ERN template",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "lint-staged",
     "start": "node server.js",
