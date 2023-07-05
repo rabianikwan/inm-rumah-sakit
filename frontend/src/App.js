@@ -127,7 +127,7 @@ function App() {
 							placeholder='***'
 							value='007'
 						/>
-						<label className='text-sm font-medium'>Input 3</label>
+						<label className='text-sm font-medium'>Numerator</label>
 						<input
 							className='mb-3 px-2 py-1.5
     mb-3 mt-1 block w-full px-2 py-1.5 border border-gray-300 rounded-md text-sm shadow-sm placeholder-gray-400
@@ -140,7 +140,7 @@ function App() {
 							name='numerator'
 							placeholder='Angka'
 						/>
-						<label className='text-sm font-medium'>Input 4</label>
+						<label className='text-sm font-medium'>Denumerator</label>
 						<input
 							className='mb-3 px-2 py-1.5
     mb-3 mt-1 block w-full px-2 py-1.5 border border-gray-300 rounded-md text-sm shadow-sm placeholder-gray-400
