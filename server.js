@@ -14,7 +14,7 @@ app.use(express.static(path.join('frontend', 'build')));
 
 app.use(express.urlencoded({ extended: true }));
 
-app.use(router());
+app.use(router);
 
 app.listen(port, () =>
 	console.log('server is running on http://localhost:' + port)
