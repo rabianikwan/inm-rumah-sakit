@@ -40,9 +40,8 @@ async function idenClient(username, password, month, nums, denum, dashboard) {
 			await driver.wait(until.alertIsPresent());
 			let alert = await driver.switchTo().alert();
 			let alertText = await alert.getText();
-			await console.log(alertText);
 			await alert.accept();
-			console.log('data tanggal', dateInput[i], 'telah disimpan');
+			await console.log('data tanggal', dateInput[i], alertText);
 			await driver.sleep(2000);
 		}
 	} finally {
