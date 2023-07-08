@@ -11,4 +11,7 @@ root.render(
 	</React.StrictMode>
 );
 
+let nilai = document.getElementsByName('item_count').value;
+console.log(nilai);
+
 reportWebVitals();
